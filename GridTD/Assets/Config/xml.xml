@@ -1,0 +1,53 @@
+<game>
+  <monster>
+    <m id="1" name="欧贝里斯克天空龙" hp="100" speed="1"/>
+    <m id="2" name="欧西里斯巨神兵" hp="200" speed="2"/>
+  </monster>
+
+  <turret>
+    <t id="1" name="单发" attack="20" attackSpeed="1" money="100" desc="溜溜的单发" />
+    <t id="2" name="多发" attack="10" attackSpeed="1.5" money="100" desc="溜溜的多发" />
+  </turret>
+  <pass>
+    <map>
+      <p>
+        <pos  posX="3" posY="3"/>
+        <pos  posX="3" posY="9"/>
+        <pos  posX="6" posY="9"/>
+        <pos  posX="6" posY="3"/>
+      </p>
+      <p>
+        <pos  posX="2" posY="2"/>
+        <pos  posX="2" posY="2"/>
+        <pos  posX="2" posY="2"/>
+        <pos  posX="2" posY="2"/>
+      </p>
+      <p>
+        <pos  posX="3" posY="4"/>
+        <pos  posX="3" posY="4"/>
+        <pos  posX="3" posY="4"/>
+        <pos  posX="3" posY="4"/>
+      </p>
+    </map>
+    <map>
+      <p>
+        <pos  posX="2" posY="2"/>
+        <pos  posX="2" posY="2"/>
+        <pos  posX="2" posY="2"/>
+        <pos  posX="2" posY="2"/>
+      </p>
+      <p>
+        <pos  posX="1" posY="2"/>
+        <pos  posX="6" posY="4"/>
+        <pos  posX="5" posY="9"/>
+        <pos  posX="7" posY="6"/>
+      </p>
+      <p>
+        <pos  posX="3" posY="4"/>
+        <pos  posX="3" posY="4"/>
+        <pos  posX="3" posY="4"/>
+        <pos  posX="3" posY="4"/>
+      </p>
+    </map>
+  </pass>
+</game>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+  <player>
+    <p id="0" name="管理员" username="admin" password="admin" score="99999" image="1" />
+    <p id="1" name="害怕" username="haipa" password="haipa" score="233" image="2" />
+    <p id="2" name="帅" username="shuai" password="shuai" score="666" image="3" />
+    <p id="3" name="喵喵喵" username="mmm" password="mmm" score="333" image="4" />
+    <p id="4" name="喝茶" username="hecha" password="hecha" score="0" image="5" />
+    <p id="5" name="哧溜" username="chiliu" password="chiliu" score="0" image="6" />
+    <p id="6" name="木大" username="muda" password="muda" score="0" image="7" />
+    <p id="7" name="惊了" username="jingle" password="jingle" score="0" image="8" />
+    <p id="8" name="斜眼" username="xieyan" password="xieyan" score="0" image="9" />
+    <p id="9" name="害怕(" username="haipa1" password="haipa1" score="0" image="10" />
+    <p id="10" name="可怕" username="kepa" password="kepa" score="0" image="11" />
+    <p id="11" name="黑人?" username="en" password="en" score="0" image="12" />
+    <p id="12" name="斜眼(" username="xieyan1" password="xieyan1" score="0" image="13" />
+  </player>
+  <poker>
+    <p id="1" se="0" value="16" />
+    <p id="2" se="0" value="15" />
+    <p id="3" se="1" value="0" />
+    <p id="4" se="1" value="1" />
+    <p id="5" se="1" value="2" />
+    <p id="6" se="1" value="3" />
+    <p id="7" se="1" value="4" />
+    <p id="8" se="1" value="5" />
+    <p id="9" se="1" value="6" />
+    <p id="10" se="1" value="7" />
+    <p id="11" se="1" value="8" />
+    <p id="12" se="1" value="9" />
+    <p id="13" se="1" value="10" />
+    <p id="14" se="1" value="11" />
+    <p id="15" se="1" value="13" />
+    <p id="16" se="2" value="0" />
+    <p id="17" se="2" value="1" />
+    <p id="18" se="2" value="2" />
+    <p id="19" se="2" value="3" />
+    <p id="20" se="2" value="4" />
+    <p id="21" se="2" value="5" />
+    <p id="22" se="2" value="6" />
+    <p id="23" se="2" value="7" />
+    <p id="24" se="2" value="8" />
+    <p id="25" se="2" value="9" />
+    <p id="26" se="2" value="10" />
+    <p id="27" se="2" value="11" />
+    <p id="28" se="2" value="13" />
+    <p id="29" se="3" value="0" />
+    <p id="30" se="3" value="1" />
+    <p id="31" se="3" value="2" />
+    <p id="32" se="3" value="3" />
+    <p id="33" se="3" value="4" />
+    <p id="34" se="3" value="5" />
+    <p id="35" se="3" value="6" />
+    <p id="36" se="3" value="7" />
+    <p id="37" se="3" value="8" />
+    <p id="38" se="3" value="9" />
+    <p id="39" se="3" value="10" />
+    <p id="40" se="3" value="11" />
+    <p id="41" se="3" value="13" />
+    <p id="42" se="4" value="0" />
+    <p id="43" se="4" value="1" />
+    <p id="44" se="4" value="2" />
+    <p id="45" se="4" value="3" />
+    <p id="46" se="4" value="4" />
+    <p id="47" se="4" value="5" />
+    <p id="48" se="4" value="6" />
+    <p id="49" se="4" value="7" />
+    <p id="50" se="4" value="8" />
+    <p id="51" se="4" value="9" />
+    <p id="52" se="4" value="10" />
+    <p id="53" se="4" value="11" />
+    <p id="54" se="4" value="13" />
+  </poker>
+</root>
