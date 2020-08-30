@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class TestImage : MonoBehaviour {
+
+[RequireComponent (typeof (LineRenderer))]
+public class ParabolaTest : MonoBehaviour {
 	LineRenderer line;
 	//重力
 	[Range (0.001f, 1)]
@@ -15,6 +17,9 @@ public class TestImage : MonoBehaviour {
 		line = GetComponent<LineRenderer> ();
 	}
 	void OnDrawGizmos () {
+		if (!line) {
+			line = GetComponent<LineRenderer> ();
+		}
 		//Quaternion x Vector3计算
 		//Vector3.forward旋转transform.rotation的位置，等同于transform.forward
 		Vector3 forward = transform.rotation * Vector3.forward * power;
@@ -33,7 +38,7 @@ public class TestImage : MonoBehaviour {
 		}
 		iMax = m_List.Count;
 		Gizmos.color = Color.red;
-		line.SetVertexCount (iMax);
+		line.positionCount = iMax;
 		for (i = 0; i < iMax; i++) {
 			line.SetPosition (i, m_List[i]);
 		}

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanGame", "Assembly-CSharp-firstpass.csproj", "{D17D2273-1BB8-8206-8E03-B15254D64CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanGame", "Assembly-CSharp.csproj", "{941153DF-EEBF-34D2-C76C-B2B09AB31EF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D17D2273-1BB8-8206-8E03-B15254D64CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17D2273-1BB8-8206-8E03-B15254D64CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17D2273-1BB8-8206-8E03-B15254D64CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17D2273-1BB8-8206-8E03-B15254D64CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941153DF-EEBF-34D2-C76C-B2B09AB31EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941153DF-EEBF-34D2-C76C-B2B09AB31EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941153DF-EEBF-34D2-C76C-B2B09AB31EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941153DF-EEBF-34D2-C76C-B2B09AB31EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
